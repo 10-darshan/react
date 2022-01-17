@@ -1,0 +1,22 @@
+{
+  "CourseData": [
+    {
+      "description": "efghjhvjh",
+      "name": "reacta",
+      "duration": "3",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "name": "asda",
+      "description": "asdas",
+      "duration": "5"
+    },
+    {
+      "name": "kjhk",
+      "description": "kjhkkj",
+      "duration": "2",
+      "id": 13
+    }
+  ]
+}

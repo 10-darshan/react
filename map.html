@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <span id="sp"></span>
+    <span id="span"></span>
+</body>
+<script type="text/javascript">
+    const arr = ['ram', 'shyam', 'jyam', 'hyam', 'pam'];
+    const copy = arr.map(function (value, index, array) {
+        //console.log(value);
+        return value;
+    });
+    console.log(copy);
+
+    const arr2 = [
+        {
+            name: "Darshan",
+            city: "Almora",
+            email: "darshan@gmail.com"
+        },
+        {
+            name: "Disha",
+            city: "Almora",
+            email: "disha@gmail.com"
+        },
+        {
+            name: "Dipu",
+            city: "Bageshwar",
+            email: "dipu@gmail.com"
+        }
+    ];
+
+    const copy2 = arr2.map((value, index, array) => {
+        return value.name;
+    });
+    document.getElementById('span').innerHTML = copy2;
+    document.getElementsByTagName('span')[0].innerHTML = copy2;
+
+</script>
+
+</html>

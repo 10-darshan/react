@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.heading {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px blue;
+    margin: 50px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 450px;
+    height: 300px;
+}
